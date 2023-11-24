@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+body{
+    margin: 0;
+    background-color: wheat;
+}
+/*ヘッダー*/
+header {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    align-items: center;
+    position: 0;
+}
+
+.header_link{
+    margin-left: auto;
+    margin-right: 5px;
+}
+
+.header_button{
+    background: #c26552;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    height: 40px;
+    padding: 8px 20px;
+    outline:invert;
+}
+
+h1
+{
+    color:darkgreen;
+    
+}
