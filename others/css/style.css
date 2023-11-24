@@ -1,9 +1,5 @@
 @charset "utf-8";
 
-body{
-    margin: 0;
-    background-color: wheat;
-}
 /*ヘッダー*/
 header {
     display: flex;
@@ -16,7 +12,7 @@ header {
 
 .header_link{
     margin-left: auto;
-    margin-right: 5px;
+    margin-right: 10px;
 }
 
 .header_button{
@@ -29,8 +25,24 @@ header {
     outline:invert;
 }
 
-h1
-{
-    color:darkgreen;
-    
+.logo{
+    height: 50px;
 }
+
+
+/*フッター*/
+footer{
+    background-color: goldenrod;
+    text-align: center;
+    color: #000;
+}
+
+
+/*全般設定*/
+
+body{
+    margin: 0;
+    background-color: wheat;
+}
+
+
