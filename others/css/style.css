@@ -4,7 +4,7 @@
 header {
     display: flex;
     width: 100%;
-    height: 70px;
+    height: 5vh;
     background-color: white;
     align-items: center;
     position: 0;
@@ -20,13 +20,13 @@ header {
     border-radius: 10px;
     border: none;
     color: #fff;
-    height: 40px;
-    padding: 8px 20px;
+    height: 4vh;
+    padding: 0.8vh 2vh;
     outline:invert;
 }
 
 .logo{
-    height: 50px;
+    height: 3vh;
 }
 
 
