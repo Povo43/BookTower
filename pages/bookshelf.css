@@ -1,0 +1,58 @@
+@charset "utf-8";
+* {
+  box-sizing: border-box;
+}
+    
+/* ラジオボタンは非表示 */
+input[type="radio"] {
+  display: none;
+}
+
+.tab {
+  width: 500px;
+  max-width: 100%;
+  margin: auto;
+  display: flex;
+  flex-flow: wrap;
+}
+
+.tab-item {
+  display: block;
+  width: calc(100% / 3);
+  text-align: center;
+  padding: 10px 0;
+  cursor: pointer;
+  order: -1;
+/* タブメニューは一番上に表示する */
+  
+  /* 下線以外をつける */
+  border-top: 1px solid skyblue;
+  border-left: 1px solid skyblue;
+  border-right: 1px solid skyblue;
+}
+
+.tab-item:not(:first-of-type) {
+  border-left: none;
+}
+
+/* アクティブなタブの背景色と文字色を変える */
+.tab-input:checked + .tab-item {
+  background: red;
+  color: white;
+}
+    
+/* コンテンツは原則非表示 */
+.tab-content {
+  width: 100%;
+  height: 200px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  border: 1px solid skyblue;
+}
+
+/* ラジオボタンがチェックされているコンテンツだけは表示 */
+.tab-input:checked + .tab-item + .tab-content {
+  display: flex;
+}
