@@ -15,7 +15,7 @@
 			</div>
 		</header>
 
-		<a class="new" href="#"><div class="new__arrow"></div></a>
+		<a class="new" href="../new/new.php"><div class="new__arrow"></div></a>
 
 		<div class="tab">
   
