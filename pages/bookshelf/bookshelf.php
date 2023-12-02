@@ -15,14 +15,18 @@
 			</div>
 		</header>
 
+		<a class="new" href="#"><div class="new__arrow"></div></a>
+
 		<div class="tab">
   
 			<!-- 初期状態で表示されるコンテンツに対応するラジオボタンにはchecked="checkedを設定する -->
 			<input id="menu1" class="tab-input" name="menu" type="radio" checked="checked">
-			<label for="menu1" class="tab-item">本棚ni
-			</label>
+			<label for="menu1" class="tab-item">本棚</label>
 			<div class="tab-content">
 				<!--本棚記述-->
+				<div id="mybookshelf">
+
+				</div>
 			</div>
 			
 			<input id="menu2" class="tab-input" name="menu" type="radio">
