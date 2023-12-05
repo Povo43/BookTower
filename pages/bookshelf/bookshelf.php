@@ -2,6 +2,7 @@
 <html lang="ja-jp">
 	<head>
 		<meta charset="utf-8" />
+		<link href="https://fonts.googleapis.com/earlyaccess/kokoro.css" rel="stylesheet">
 		<title>BookTower-本棚</title>
 		<link rel="icon" href="../../others/images/favicon.ico"/>
 		<link rel="stylesheet" href="../../others/css/style.css">

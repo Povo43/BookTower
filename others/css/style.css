@@ -1,5 +1,14 @@
 @charset "utf-8";
 
+@font-face {
+    font-family: "zenkurenaido";
+    src: url("ZenKurenaido.ttf") format("truetype");
+}
+
+html{
+    font-family: "zenkurenaido",serif;
+}
+
 /*ヘッダー*/
 header {
     display: flex;
@@ -23,6 +32,7 @@ header {
     height: 4vh;
     padding: 0.8vh 2vh;
     outline:invert;
+    box-shadow: 2px 2px 0.5px 0 rgba(0,0,0, .5);
 }
 
 .logo{
