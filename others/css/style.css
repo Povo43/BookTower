@@ -9,6 +9,11 @@ html{
     font-family: "zenkurenaido",serif;
 }
 
+img {
+	width: 100%;
+	vertical-align: bottom;
+}
+
 /*ヘッダー*/
 header {
     display: flex;
@@ -39,6 +44,11 @@ header {
     height: 3vh;
 }
 
+h2{
+    padding-top: 20px;
+    text-align: center;
+    margin-block-end: 0;
+}
 
 /*フッター*/
 footer{
