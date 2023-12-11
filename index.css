@@ -89,6 +89,8 @@ button{
 	outline: 1px solid #000;
 	font-size: 1.5vw;
   text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 @media screen and (max-width: 767px){
