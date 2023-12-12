@@ -83,24 +83,29 @@ button{
 	margin: calc(-30px / 2);
 	padding: 30px;
 }
-.topic-item {
-	width: calc(100% / 2 - 30px);
+.topick-item {
+	width: calc(100% / 3 - 30px);
 	margin: calc(30px / 2);
-	outline: 1px solid #000;
-	font-size: 1.5vw;
+	font-size: 2vw;
   text-align: center;
   margin-left: 10px;
   margin-right: 10px;
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 1000px){
+  .topick-item{
+    width: calc(100%/2 - 30px);
+  }
+}
+
+@media screen and (max-width: 715px){
     .news .item .date{
       min-width: 100px;
     }
     .news .item .title{
       margin-top: 10px;
     }
-    .topic-item{
-      width: calc(100%/1-30px);
+    .topick-item{
+      width: calc(100%);
     }
 }
