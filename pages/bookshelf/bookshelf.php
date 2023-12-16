@@ -27,42 +27,8 @@
 				<!--本棚記述-->
 				<div id="mybookshelf">
 					<?php
-						$id = 10;
-						$host = 'localhost';
-						$user = 'ubuntu';
-						$password = '';
-						$db = 'bookshelf';
-						
-						try {
-						
-							// (1) データベースに接続
-							$mysqli = new mysqli( $host, $user, $password, $db);
-						
-							// (2) データを登録するSQL
-							$stmt = $mysqli->prepare('SELECT * FROM users WHERE id = ?');
-						
-							// (3) 値をセット
-							$stmt->bind_param( 'i', $id);
-						
-							// (4) SQL実行
-							$stmt->execute();
-						
-							// (5) 取得したデータをセットする変数を設定
-							$stmt->bind_result( $id, $first_name, $last_name, $email, $tel);
-						
-							// (6) 結果を取得
-							if( $stmt->fetch() ) {
-								var_dump( $id, $first_name, $last_name );
-							}
-						
-							// (7) データベースの接続解除
-							$mysqli->close();
-						
-						} catch(Exception $e) {
-						
-							// (8) エラーメッセージを出力
-							echo $e->getMessage();
-						}
+						//データベースに接続
+						$db = new PDO(localhost, ubuntu, , array());
 					?>
 				</div>
 			</div>
