@@ -28,7 +28,8 @@
 				<div id="mybookshelf">
 					<?php
 						//データベースに接続
-						$db = new PDO(localhost, ubuntu, , array());
+						$db = new PDO("localhost", "mima", "setuzoku_0723", array());
+						
 					?>
 				</div>
 			</div>
