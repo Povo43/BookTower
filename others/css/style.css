@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: "zenkurenaido";
-    src: url("ZenKurenaido.ttf") format("truetype");
+    src: url("../../../ZenKurenaido.ttf") format("truetype");
 }
 
 html{
