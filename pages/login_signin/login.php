@@ -11,18 +11,20 @@
  <body>
     <header>
 		<div>
-			<a href="index.html">
+			<a href="../../index.html">
 			<img src="../../others/images/BOOKTOWER1.png" alt="logo" class="logo"></a>
 		</div>
 	</header>
 
+
 	<div class="forms">
 		<form action="" method="POST">
-   		    <label for="signin-id">アカウント名</label>
+   		    <label class="label1" for="signin-id">アカウント名</label>
     	    <input id="signin-id" name="username" type="text" placeholder="メールアドレスを入力">
-    	    <label for="signin-pass">パスワード</label>
+			
+			<label class="label2" for="signin-pass">パスワード</label>
     	    <input id="signin-pass" name="password" type="text" placeholder="パスワードを入力">
-    	    <button name="signin" type="submit">ログインする</button>
+    	    <button class="form-button" name="signin" type="submit">ログインする</button>
     	</form>
 	</div>
 
