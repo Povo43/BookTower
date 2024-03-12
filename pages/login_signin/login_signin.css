@@ -1,39 +1,49 @@
 @charset "utf-8";
 
-.forms{
 
-    background-color: white;
-    padding: 10px 10px 10px 10px;
+body{
+    background-image: none;
+    background-color: #E8DDB5;
+}
+
+.forms{
+    margin: 50px auto auto auto;
+        /* グリッドレイアウト */
+        display: grid; 
+        grid-template-rows: 70px 1fr;
+        grid-template-columns: 1fr;
+        grid-template-columns: minmax(auto, 377px);
+        justify-content: center;
+}
+
+#login_title{
+    font-size: 36px;
+    text-align: center;
 }
 
 form{
+    margin-top: 10vh;
+    margin-bottom: 60vh;
         /* グリッドレイアウト */
         display: grid; 
-        grid-template-rows: 0.3fr 0.3fr 0.3fr;
-        grid-template-columns: 150px 1fr;
-}
-
-.label1{
-    grid-row: 1/2;
-    grid-column: 1/2;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
 }
 
 #signin-id{
     grid-row: 1/2;
-    grid-column: 2/3;
-}
-
-.label2{
-    grid-row: 2/3;
     grid-column: 1/2;
+    margin: auto;
 }
 
 #signin-pass{
     grid-row: 2/3;
-    grid-column: 2/3;
+    grid-column: 1/2;
+    margin: auto;
 }
 
 .form-button{
     grid-row: 3/4;
-    grid-column: 2/3;
+    grid-column: 1/2;
+    margin: auto;
 }
