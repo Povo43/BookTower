@@ -19,8 +19,8 @@
 		</div>
 	</header>
 
-
-	<div class="forms">
+ <div class="forms">
+	<div class="form_bg">
 		<div id="login_title">BookTower-ログイン</div>
 		<form action="" method="POST">
 	   	    <input id="signin-id" name="username" type="text" placeholder="ユーザー名 または メールアドレス">
@@ -28,6 +28,7 @@
     	    <button class="form-button" name="signin" type="submit">ログインする</button>
     	</form>
 	</div>
+</div>
 
 	<footer>
 		<div class="footer">

@@ -4,10 +4,18 @@
 body{
     background-image: none;
     background-color: #E8DDB5;
+    height: 110vh;
 }
 
 .forms{
     margin: 50px auto auto auto;
+    height: 565.5px;
+}
+
+.form_bg{
+    width: 377px;
+    margin: auto;
+    background-color: white;
         /* グリッドレイアウト */
         display: grid; 
         grid-template-rows: 70px 1fr;
@@ -22,8 +30,8 @@ body{
 }
 
 form{
-    margin-top: 10vh;
-    margin-bottom: 60vh;
+    margin-top: 70px;
+    height: 250px;
         /* グリッドレイアウト */
         display: grid; 
         grid-template-rows: 1fr 1fr 1fr;
@@ -31,19 +39,63 @@ form{
 }
 
 #signin-id{
+    border: 3px solid #000000;
+    border-color: transparent transparent black transparent;
+    background-color: #d4f1cb7c;
+    width: 300px;
+    height: 30px;
+    text-align: center;    
+    color: #3d3b3c;
+    border-radius: 5px;
+
     grid-row: 1/2;
     grid-column: 1/2;
     margin: auto;
 }
 
+#signin-id:hover{
+        background-color: #d4f1cb50;
+        width: 320px;
+        height: 35px;
+}
+#signin-id:focus{
+    background-color: #d4f1cb50;
+    width: 320px;
+    height: 35px;
+}
+
 #signin-pass{
+    border: 3px solid #000000;
+    border-color: transparent transparent black transparent;
+    background-color: #d4f1cb7c;
+    width: 300px;
+    height: 30px;
+    text-align: center;    
+    color: #3d3b3c;
+    border-radius: 5px;
+
     grid-row: 2/3;
     grid-column: 1/2;
     margin: auto;
+}
+
+#signin-pass:hover{
+    background-color: #d4f1cb50;
+    width: 320px;
+    height: 35px;
+}
+#signin-pass:focus{
+    background-color: #d4f1cb50;
+    width: 320px;
+    height: 35px;
 }
 
 .form-button{
     grid-row: 3/4;
     grid-column: 1/2;
     margin: auto;
+}
+
+footer{
+    margin-top: auto;
 }
