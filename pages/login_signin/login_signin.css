@@ -91,9 +91,22 @@ form{
 }
 
 .form-button{
+    background-color: #d4f1cbf1;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: #d4f1cbf1;
+    border: 0px;
+
     grid-row: 3/4;
     grid-column: 1/2;
     margin: auto;
+}
+.form-button:hover{
+    background-color: #d4f1cb50;
+    border-color: #d4f1cb50;
+    width: 320px;
+    height: 35px;
 }
 
 footer{
