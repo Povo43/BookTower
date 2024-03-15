@@ -4,37 +4,42 @@
 body{
     background-image: none;
     background-color: #E8DDB5;
-    height: 110vh;
+    height: 100vh;
+    background-image: url(../../others/images/booktower-bg.png);
+    background-position: center;
 }
 
 .forms{
-    margin: 50px auto auto auto;
+    margin: 20vh auto auto auto;
     height: 565.5px;
 }
 
 .form_bg{
-    width: 377px;
+    width: 350px;
     margin: auto;
     background-color: white;
+    border-radius: 7px;
+    border: 1.5px solid #000000b0;
+    box-shadow: 2px 2px 5px 0 #00000060;
         /* グリッドレイアウト */
         display: grid; 
-        grid-template-rows: 70px 1fr;
+        grid-template-rows: 100px 1fr;
         grid-template-columns: 1fr;
         grid-template-columns: minmax(auto, 377px);
         justify-content: center;
 }
 
 #login_title{
+    margin: 30px auto 30px auto;
     font-size: 36px;
     text-align: center;
 }
 
 form{
-    margin-top: 70px;
     height: 250px;
         /* グリッドレイアウト */
         display: grid; 
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1.25fr;
         grid-template-columns: 1fr;
 }
 
@@ -92,15 +97,15 @@ form{
 
 .form-button{
     background-color: #d4f1cbf1;
-    width: 300px;
-    height: 30px;
+    width: 310px;
+    height: 35px;
     border-radius: 5px;
     border-color: #d4f1cbf1;
     border: 0px;
 
     grid-row: 3/4;
     grid-column: 1/2;
-    margin: auto;
+    margin: auto auto 40px auto;
 }
 .form-button:hover{
     background-color: #d4f1cb50;
