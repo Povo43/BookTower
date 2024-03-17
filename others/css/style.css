@@ -42,6 +42,8 @@ header {
 
 .logo{
     height: 3vh;
+    margin-left: 10px;
+    border-radius: 30%;
 }
 
 h2{

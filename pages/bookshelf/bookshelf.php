@@ -19,33 +19,7 @@
 		<a class="new" href="../new/new.php"><div class="new__arrow"></div></a>
 
 		<div class="tab">
-  
-			<!-- 初期状態で表示されるコンテンツに対応するラジオボタンにはchecked="checkedを設定する -->
-			<input id="menu1" class="tab-input" name="menu" type="radio" checked="checked">
-			<label for="menu1" class="tab-item">本棚</label>
-			<div class="tab-content">
-				<!--本棚記述-->
-				<div id="mybookshelf">
-					<?php
-						//データベースに接続
-						$db = new PDO("localhost", "mima", "setuzoku_0723", array());
-						
-					?>
-				</div>
-			</div>
-			
-			<input id="menu2" class="tab-input" name="menu" type="radio">
-			<label for="menu2" class="tab-item">フォロー中</label>
-			<div class="tab-content">
-				<!--フォロー中記述-->
-			</div>
-			
-			<input id="menu3" class="tab-input" name="menu" type="radio">
-			<label for="menu3" class="tab-item">おすすめ</label>
-			<div class="tab-content">
-				<!--おすすめ記述-->
-			</div>
-			
+
 		  </div>
 
 		<footer>
