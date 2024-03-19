@@ -2,7 +2,9 @@
     box-sizing: border-box;
   }
 
-/*検索フォーム関連*/
+/*ヘッダー*/
+
+/*-検索フォーム関連*/
 form{
   margin-left: auto;
   margin-right: 15px;
@@ -17,16 +19,18 @@ form{
 .ra1_img img{
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
+  cursor: pointer;
 }
 .ra2_img img{
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
+  cursor: pointer;
 }
 input[type="radio"] {
   display: none;
 }
 
-/*t\チェックで薄さ変更*/
+/*(チェックで薄さ変更)*/
 input[type="radio"] + label img {
   opacity:0.2;
 }
@@ -36,14 +40,12 @@ input[type="radio"]:checked + label img {
 
 
 form input {
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
+  border-radius: 10px 0  0 10px;
   margin-left: 10px;
   width: 250px;
   height: 40px;
   padding: 5px 15px;
   border: none;
-  border-radius: 3px 0 0 3px;
   box-sizing: border-box;
   background-color: #f2f2f2;
   font-size: 1em;
@@ -55,19 +57,16 @@ form input::placeholder {
 }
 
 .search_button {
-  border-top-right-radius: 8px;
-  border-bottom-right-radius: 8px;
+  border-radius: 0 10px 10px 0;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 50px;
   height: 40px;
   border: none;
-  border-radius: 0 3px 3px 0;
   background-color: #98e282;
   cursor: pointer;
 }
-
 .search_button::after {
   width: 40px;
   height: 40px;
@@ -76,7 +75,57 @@ form input::placeholder {
   content: '';
 }
 
-/*検索フォーム関連ここまで*/
+/*-検索フォーム関連ここまで*/
+
+.mypage{
+  background-image: url("../../others/images/topic/dami.jpeg");
+  background-position: center; 
+  background-size: 40px;
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+  border-radius: 50%;
+  border: 1.5px solid #000000b0;
+}
+.mypage:hover{
+  opacity:0.7;
+}
+
+.mypage_manu{
+  background-color: rgb(252, 236, 220);
+  position:fixed;
+  top: 50px;
+  right: 0px;
+  height: 200px;
+  width: 150px;
+  border-radius: 0 0 0 10px;
+}
+
+.mypage_manu ul{
+  height: 160px;
+  list-style: none;
+  padding-left: 10px;
+  text-align: center;
+}
+
+.mypage_manu ul li a{
+  color: #000;
+  text-decoration:none;
+}
+.mypage_manu ul li a:hover{
+  color: #919090;
+}
+
+.manu_pr{
+  margin-top: 100px;
+  font-size: 0.5em;
+}
+
+.cannotsee{
+  display: none;
+}
+
+/*ヘッダー関連ここまで*/
 
 .tab {
   max-width: 95%;
@@ -126,4 +175,9 @@ html {
   background: inherit;
   border-radius: inherit;
   transform: rotate(90deg);
+}
+
+
+footer div p{
+  margin-bottom: 0;
 }

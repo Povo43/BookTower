@@ -4,6 +4,8 @@
 		<meta charset="utf-8" />
 		<link href="https://fonts.googleapis.com/earlyaccess/kokoro.css" rel="stylesheet">
 		<title>BookTower-本棚</title>
+		<script src="https://code.jquery.com/jquery.min.js"></script>
+		<script src="bookshelf.js"></script>
 		<link rel="icon" href="../../others/images/favicon.ico"/>
 		<link rel="stylesheet" href="../../others/css/style.css">
 		<link rel="stylesheet" href="bookshelf.css">
@@ -24,10 +26,18 @@
 				</label>
 				<!--入力欄-->
 				<label>
-        		<input type="text" placeholder="キーワードを入力">
+        		<input type="text" placeholder="キーワードを入力" required>
     			</label>
     			<button type="submit" aria-label="検索" class="search_button"></button>
 			</form>
+			<button class="mypage"></button>
+			<div class="mypage_manu cannotsee">
+				<ul>
+					<li><a href="#">ログアウト</a></li>
+					<li><a href="#">設定</a></li>
+					<li class="manu_pr"><a href="#">プライバシーポリシー</a></li>
+				</ul>
+			</div>
 		</header>
 
 		<!--新規の本を登録するボタン-->
@@ -40,7 +50,6 @@
 		<footer>
 			<div class="footer">
 				<p><small>Copyright &copy; 2023-2024 Povo Takoyaki All Rights Reserved.</small></p>
-				<a href="pages/privacy.html" class="footer-a">プライバシーポリシー</a>
 			</div>
 		</footer>
 	</body>
