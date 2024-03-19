@@ -2,17 +2,31 @@
     box-sizing: border-box;
   }
  
-  .tab {
-    max-width: 95%;
-    height: 90vh;
-    margin: auto;
-    display: flex;
-    flex-flow: wrap;
-  }
+form{
+  margin-left: auto;
+  margin-right: 15px;
+}
+
+form #title_serch{
+  height: 30px;
+  border: 0px;
+  background-color: #daf8d1;
+  border-radius: 5px;
+  border: 2px solid #000000;
+  border-color: transparent transparent black transparent;
+}
+
+.tab {
+  max-width: 95%;
+  height: 90vh;
+  margin: auto;
+  display: flex;
+  flex-flow: wrap;
+}
   
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 .new {

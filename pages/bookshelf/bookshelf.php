@@ -10,10 +10,10 @@
 	</head>
 	<body>
 		<header>
-			<div>
-				<a href="../../index.html">
-				<img src="../../others/images/BOOKTOWER1.png" alt="logo" class="logo"></a>
-			</div>
+			<a href="../../index.html" class="header-logo"><img src="../../others/images/BOOKTOWER1.png" alt="logo" class="logo"></a>
+			<form class="search">
+				<input id="title_serch" name="book_shelf" type="text" placeholder="本棚または本を検索">
+			</form>
 		</header>
 
 		<a class="new" href="../new/new.php"><div class="new__arrow"></div></a>
