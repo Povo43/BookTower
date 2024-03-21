@@ -62,13 +62,17 @@ footer{
     color: #000;
 }
 
+footer div p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 
 /*全般設定*/
 
 body{
     margin: 0;
     background-color: wheat;
-    background-image: url(../../others/images/bookshelf-bg.png);
 }
 
 

@@ -24,7 +24,6 @@ body{
         /* グリッドレイアウト */
         display: grid; 
         grid-template-rows: 100px 1fr;
-        grid-template-columns: 1fr;
         grid-template-columns: minmax(auto, 377px);
         justify-content: center;
 }

@@ -2,6 +2,8 @@
 <html lang="ja-jp">
 	<head>
 		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 		<link href="https://fonts.googleapis.com/earlyaccess/kokoro.css" rel="stylesheet">
 		<title>BookTower-本棚</title>
 		<script src="https://code.jquery.com/jquery.min.js"></script>
@@ -34,7 +36,7 @@
 			<div class="mypage_manu cannotsee">
 				<ul>
 					<li><a href="#">ログアウト</a></li>
-					<li><a href="#">設定</a></li>
+					<li><a href="../setting/index.php">設定</a></li>
 					<li class="manu_pr"><a href="#">プライバシーポリシー</a></li>
 				</ul>
 			</div>
@@ -42,14 +44,80 @@
 
 		<!--新規の本を登録するボタン-->
 		<a class="new" href="../new/new.php"><div class="new__arrow"></div></a>
+		
+		<div class="bookshelfs">
+			<!--左側のメニュー-->
+			<div class="bookshelf_manu">
+				<p>	
+				<a href="#"><span class="material-symbols-outlined">menu_book</span></a>
+				<a href="#"><span class="material-symbols-outlined">library_books</span></a>
+				</p>
+			</div>
+			<!--自分の本棚-->
+			<div class="mybookshelf">
+				<h2>私の本</h2>
+				<ul>
+					<li>
+						<img src="../../others/images/topic/dami.jpeg">
+						<div>
+							<h3>題名(^m^)</h3>
+							<p>あらすじとか感想とかその他もろもろ</p>
+						</div>
+					</li>
+					<li>
+						<img src="../../others/images/topic/dami.jpeg">
+						<div>
+							<h3>題名(^m-)</h3>
+							<p>あらすじとか感想とかその他もろもろ</p>
+						</div>
+					</li>
+					<li>
+						<img src="../../others/images/topic/dami.jpeg">
+						<div>
+							<h3>題名(-_-)</h3>
+							<p>あらすじとか感想とかその他もろもろ</p>
+						</div>
+					</li>
+					<li>
+						<img src="../../others/images/topic/dami.jpeg">
+						<div>
+							<h3>題名('1 ')</h3>
+							<p>あらすじとか感想とかその他もろもろ</p>
+						</div>
+					</li>
+					<li>
+						<img src="../../others/images/topic/dami.jpeg">
+						<div>
+							<h3>題名("-")</h3>
+							<p>あらすじとか感想とかその他もろもろ</p>
+						</div>
+					</li>
+					<li>
+						<img src="../../others/images/topic/dami.jpeg">
+						<div>
+							<h3>題名(^w^)</h3>
+							<p>あらすじとか感想とかその他もろもろ</p>
+						</div>
+					</li>
+					<li>
+						<img src="../../others/images/topic/dami.jpeg">
+						<div>
+							<h3>題名(+_+)</h3>
+							<p>あらすじとか感想とかその他もろもろ</p>
+						</div>
+					</li>
 
-		<div class="tab">
+				</ul>
+			</div>
+			<!--フォロー中の本棚-->
+			<div class="frendsbookshelf">
 
-		  </div>
+			</div>
+		</div>
 
 		<footer>
 			<div class="footer">
-				<p><small>Copyright &copy; 2023-2024 Povo Takoyaki All Rights Reserved.</small></p>
+				<p><small>Copyright &copy; 2023-2024 Povo tako All Rights Reserved.</small></p>
 			</div>
 		</footer>
 	</body>

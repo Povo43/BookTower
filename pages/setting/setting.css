@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+.setting{
+    display: flex;
+    height: 91.5vh;
+}
+
+footer div p{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
