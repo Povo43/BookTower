@@ -134,18 +134,41 @@ form input::placeholder {
   grid-template-rows: 91.5vh;
   grid-template-columns: 50px 500px 1fr;
 }
-
+/*左のナビゲーションバー*/
 .bookshelf_manu{
   grid-row: 1/2;
   grid-column: 1/2;
   
   background-color: antiquewhite;
 }
-.bookshelf_manu p span{
+.tab{
+  list-style: none;
+  padding-left: 0;
+}
+.tab li.active a{
+  background:#fff;
+}
+/*エリアの表示非表示と形状*/
+.area {
+  display: none;/*はじめは非表示*/
+  opacity: 0;/*透過0*/
+  background: #fff;
+  padding:50px 20px;
+}
+
+/*areaにis-activeというクラスがついた時の形状*/
+.area.is-active {
+    display: block;/*表示*/
+    animation-name: displayAnime;/*ふわっと表示させるためのアニメーション*/
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+.bookshelf_manu ul li a span{
   font-size: 40px;
   margin-left: 4px;
   color: #000;
 }
+/*左のナビゲーションバー*/
 
 .mybookshelf{
   grid-row: 1/2;
@@ -166,17 +189,23 @@ form input::placeholder {
   }
   .mybookshelf ul li{
       list-style: none;
-      display: flex;
+      margin-bottom: 10px;
   }
-  .mybookshelf ul li img{
+  .mybookshelf ul li a{
+    display: flex;
+  }
+
+  .mybookshelf ul li a img{
     height: 100px;
     width: 100px;
   }
-  .mybookshelf ul li div{
+  .mybookshelf ul li a div{
     margin-left: 20px;
   }
-  .mybookshelf ul li div h3{
+  .mybookshelf ul li a div h3{
     margin-top: 10px;
+    color: #000;
+    text-decoration: none;
   }
 
 .frendsbookshelf{

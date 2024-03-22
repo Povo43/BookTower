@@ -48,69 +48,30 @@
 		<div class="bookshelfs">
 			<!--左側のメニュー-->
 			<div class="bookshelf_manu">
-				<p>	
-				<a href="#"><span class="material-symbols-outlined">menu_book</span></a>
-				<a href="#"><span class="material-symbols-outlined">library_books</span></a>
-				</p>
+				<ul class="tab">
+					<li><a href="#mybookshelf"><span class="material-symbols-outlined">menu_book</span></li></a>
+					<li><a href="#friendsbookshelf"><span class="material-symbols-outlined">library_books</span></li></a>
+				</ul>
 			</div>
 			<!--自分の本棚-->
-			<div class="mybookshelf">
+			<div class="mybookshelf" id="mybookshelf">
 				<h2>私の本</h2>
 				<ul>
 					<li>
+					<a href="#">
 						<img src="../../others/images/topic/dami.jpeg">
 						<div>
 							<h3>題名(^m^)</h3>
-							<p>あらすじとか感想とかその他もろもろ</p>
+								<p>あらすじとか感想とかその他もろもろ</p>
+
 						</div>
-					</li>
-					<li>
-						<img src="../../others/images/topic/dami.jpeg">
-						<div>
-							<h3>題名(^m-)</h3>
-							<p>あらすじとか感想とかその他もろもろ</p>
-						</div>
-					</li>
-					<li>
-						<img src="../../others/images/topic/dami.jpeg">
-						<div>
-							<h3>題名(-_-)</h3>
-							<p>あらすじとか感想とかその他もろもろ</p>
-						</div>
-					</li>
-					<li>
-						<img src="../../others/images/topic/dami.jpeg">
-						<div>
-							<h3>題名('1 ')</h3>
-							<p>あらすじとか感想とかその他もろもろ</p>
-						</div>
-					</li>
-					<li>
-						<img src="../../others/images/topic/dami.jpeg">
-						<div>
-							<h3>題名("-")</h3>
-							<p>あらすじとか感想とかその他もろもろ</p>
-						</div>
-					</li>
-					<li>
-						<img src="../../others/images/topic/dami.jpeg">
-						<div>
-							<h3>題名(^w^)</h3>
-							<p>あらすじとか感想とかその他もろもろ</p>
-						</div>
-					</li>
-					<li>
-						<img src="../../others/images/topic/dami.jpeg">
-						<div>
-							<h3>題名(+_+)</h3>
-							<p>あらすじとか感想とかその他もろもろ</p>
-						</div>
+						</a>
 					</li>
 
 				</ul>
 			</div>
 			<!--フォロー中の本棚-->
-			<div class="frendsbookshelf">
+			<div class="frendsbookshelf" id="friendsbookshelf">
 
 			</div>
 		</div>
