@@ -78,7 +78,7 @@
 
 		<footer>
 			<div class="footer">
-				<p><small>Copyright &copy; 2023-2024 Povo tako All Rights Reserved.</small></p>
+				<p><small>Copyright &copy; 2023 Povo tako All Rights Reserved.</small></p>
 			</div>
 		</footer>
 	</body>
